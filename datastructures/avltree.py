@@ -44,7 +44,7 @@ class AVLTree(IAVLTree[K,V], Generic[K, V]):
     def delete(self, key: K) -> None:
         raise NotImplementedError
 
-    def inorder(self, visit: Callable[[V], None] | None = None) -> List[K]:
+    def inorder(self, visit: Optional[Callable[[V], None]] = None) -> List[K]:
         raise NotImplementedError
 
     def preorder(self, visit: Callable[[V], None] | None = None) -> List[K]:
