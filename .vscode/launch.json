@@ -9,12 +9,6 @@
             "type": "debugpy",
             "request": "launch",
             "module": "projects.stocks.program"
-        },
-        {
-            "name": "A*",
-            "type": "debugpy",
-            "request": "launch",
-            "module": "projects.astar.program"
         }
     ]
 }
